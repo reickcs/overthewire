@@ -23,3 +23,28 @@ I successfully gained access to the first level.
 
 
 ## Bandit 1
+
+The password for the next level is in a file for readme located within the home directory. I need to find the file, read the file, and get the password to then SSH into the next level. 
+
+I was given several options that I could use to solve this level.
+  ls
+  cd
+  cat
+  file
+  du
+  find
+
+Based upon going through manual pages, I found that ls, and cat are the two commands that will help me solve this problem. 
+
+first I listed the file contents of my current directory. Found the readme file and then used cat to read the contents.
+
+![image](https://github.com/reickcs/overthewire/assets/119334123/0e71a1f2-d2e6-40e6-8c0d-02b2050aaaa5)
+
+
+I proceeded to copy the password for future reference
+
+- <details><summary>The password is:</summary>
+  <pre>
+  NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
+  </pre>
+  </details>
